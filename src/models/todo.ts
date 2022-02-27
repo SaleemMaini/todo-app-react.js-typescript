@@ -1,8 +1,8 @@
 class Todo {
-  id: string;
+  id: number;
   text: string;
   constructor(text: string) {
-    this.id = new Date().toISOString();
+    this.id = Math.random();
     this.text = text;
   }
 }
